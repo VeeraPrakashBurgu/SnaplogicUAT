@@ -1,0 +1,4259 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 8,
+    "link_map": {
+        "link307": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-00000000004f",
+            "src_view_id": "error0"
+        },
+        "link309": {
+            "dst_id": "11111111-1111-1111-1111-000000000050",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000003e",
+            "src_view_id": "output0"
+        },
+        "link310": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000024",
+            "src_view_id": "error0"
+        },
+        "link311": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link313": {
+            "dst_id": "11111111-1111-1111-1111-000000000018",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000012",
+            "src_view_id": "output0"
+        },
+        "link314": {
+            "dst_id": "11111111-1111-1111-1111-00000000001f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001c",
+            "src_view_id": "output0"
+        },
+        "link315": {
+            "dst_id": "11111111-1111-1111-1111-00000000002a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000033",
+            "src_view_id": "output0"
+        },
+        "link316": {
+            "dst_id": "11111111-1111-1111-1111-000000000033",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000018",
+            "src_view_id": "output0"
+        },
+        "link317": {
+            "dst_id": "11111111-1111-1111-1111-00000000004e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001f",
+            "src_view_id": "output0"
+        },
+        "link318": {
+            "dst_id": "11111111-1111-1111-1111-00000000003b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000021",
+            "src_view_id": "output0"
+        },
+        "link319": {
+            "dst_id": "11111111-1111-1111-1111-000000000024",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000002d",
+            "src_view_id": "output0"
+        },
+        "link320": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output1"
+        },
+        "link321": {
+            "dst_id": "11111111-1111-1111-1111-000000000021",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000018",
+            "src_view_id": "output1"
+        },
+        "link322": {
+            "dst_id": "11111111-1111-1111-1111-000000000027",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000036",
+            "src_view_id": "output0"
+        },
+        "link323": {
+            "dst_id": "11111111-1111-1111-1111-00000000004c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000015",
+            "src_view_id": "output0"
+        },
+        "link324": {
+            "dst_id": "11111111-1111-1111-1111-00000000004f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000004c",
+            "src_view_id": "output0"
+        },
+        "link325": {
+            "dst_id": "11111111-1111-1111-1111-000000000027",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000030",
+            "src_view_id": "output0"
+        },
+        "link326": {
+            "dst_id": "11111111-1111-1111-1111-000000000015",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000027",
+            "src_view_id": "output0"
+        },
+        "link327": {
+            "dst_id": "11111111-1111-1111-1111-000000000036",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000050",
+            "src_view_id": "output101"
+        },
+        "link328": {
+            "dst_id": "11111111-1111-1111-1111-000000000046",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000004e",
+            "src_view_id": "output104"
+        },
+        "link329": {
+            "dst_id": "11111111-1111-1111-1111-000000000027",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000046",
+            "src_view_id": "output0"
+        },
+        "link330": {
+            "dst_id": "11111111-1111-1111-1111-000000000030",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000051",
+            "src_view_id": "output101"
+        },
+        "link331": {
+            "dst_id": "11111111-1111-1111-1111-000000000049",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000024",
+            "src_view_id": "output0"
+        },
+        "link332": {
+            "dst_id": "11111111-1111-1111-1111-000000000053",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-00000000004f",
+            "src_view_id": "output101"
+        },
+        "link335": {
+            "dst_id": "11111111-1111-1111-1111-00000000001c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000f",
+            "src_view_id": "output0"
+        },
+        "link336": {
+            "dst_id": "11111111-1111-1111-1111-000000000012",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output1"
+        },
+        "link337": {
+            "dst_id": "11111111-1111-1111-1111-000000000043",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link338": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000049",
+            "src_view_id": "output0"
+        },
+        "link339": {
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000043",
+            "src_view_id": "output0"
+        },
+        "link340": {
+            "dst_id": "11111111-1111-1111-1111-00000000003e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000003b",
+            "src_view_id": "output0"
+        },
+        "link341": {
+            "dst_id": "11111111-1111-1111-1111-000000000039",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000002a",
+            "src_view_id": "output0"
+        },
+        "link342": {
+            "dst_id": "11111111-1111-1111-1111-000000000051",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000039",
+            "src_view_id": "output0"
+        },
+        "link343": {
+            "dst_id": "11111111-1111-1111-1111-00000000002d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000052",
+            "src_view_id": "output101"
+        },
+        "link344": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output101"
+        },
+        "link345": {
+            "dst_id": "11111111-1111-1111-1111-000000000040",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link346": {
+            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000040",
+            "src_view_id": "output0"
+        },
+        "link347": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000053",
+            "src_view_id": "output102"
+        },
+        "link348": {
+            "dst_id": "11111111-1111-1111-1111-000000000052",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "vprakash@blackberry.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000005_output0": {
+                "label": {
+                    "value": "ForEach - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 21,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 22,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000b": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000f": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000012": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000015": {
+                "error": {},
+                "grid_x_int": 18,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000018": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000001c": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000001f": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000021": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000024": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 7,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000027": {
+                "error": {},
+                "grid_x_int": 17,
+                "grid_y_int": 5,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000002a": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000002d": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000030": {
+                "error": {},
+                "grid_x_int": 16,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000033": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000036": {
+                "error": {},
+                "grid_x_int": 16,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000039": {
+                "error": {},
+                "grid_x_int": 14,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000003b": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000003e": {
+                "error": {},
+                "grid_x_int": 14,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000040": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000043": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000046": {
+                "error": {},
+                "grid_x_int": 15,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000049": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000004c": {
+                "error": {},
+                "grid_x_int": 19,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000004e": {
+                "error": {},
+                "grid_x_int": 14,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000004f": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 20,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000050": {
+                "error": {},
+                "grid_x_int": 15,
+                "grid_y_int": 7,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000051": {
+                "error": {},
+                "grid_x_int": 15,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000052": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000053": {
+                "error": {},
+                "grid_x_int": 21,
+                "grid_y_int": 5,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": null
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarysmbaccount"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer-BadBills"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "BadBillingIds.json"
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-oracle-execute",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "PPROVNA"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Oracle - Execute"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "autoCommit": {
+                        "value": "Use account setting"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "ignoreEmptyResult": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "sqlStatement": {
+                        "expression": false,
+                        "value": "SELECT \n((MAX(DATE_UPDATED) - CAST((FROM_TZ(CAST(MAX(DATE_UPDATED) AS TIMESTAMP),'+00:00') AT TIME ZONE 'US/EASTERN') AS DATE))*1440/60) AS DEVICE_ID ,MAX(DATE_UPDATED)  AS UPDATED_DATE FROM SIMS"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "RIM.Net Mail"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "attachments": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": false,
+                        "value": "**Failed to write the GoodBillingId_OK.txt file ****\n\n*******************************************************************************************\nThis is an auto-generated email. Please DO NOT REPLY to this email. \n\nIf you have any questions/concerns, please contact  edwetl@blackberry.com\n\n*******************************************************************************************"
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "Plain text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": "snaplogic"
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "ALERT **Failed to write the GoodBillingId_OK.txt file ****"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "edwetl@blackberry.com"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "RIM.Net Mail"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "attachments": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": false,
+                        "value": "Hi,\nThe Weekly Verizon Active Services Extract cannot be generated from the Snaplogic tool because the data is not current in PRVSN.\n\nThe SIMS table in PRVSN NA region must be current through end-of-day Saturday for the Sunday execution of this process.\n\nThank you,\nEDW ETL Team"
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "Plain text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": "snaplogic"
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "ALERT ***Data is Unavailable in PRVSN Verizon Active Services Extract to run ****"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "edwetl@blackberry.com"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "formatSingleDocument": {
+                        "value": false
+                    },
+                    "ignoreEmptyStream": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-flow-foreach",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ForEach"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batch_size": {
+                        "value": 1
+                    },
+                    "exec_mode": {
+                        "value": "SYNCHRONOUS"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "maxInstances": {
+                        "value": 50
+                    },
+                    "params": {
+                        "value": []
+                    },
+                    "pipeline_snode_id": {
+                        "value": "5ad0d747645800001e06fc09"
+                    },
+                    "plex_label": {
+                        "expression": false,
+                        "value": "Groundplex"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$UPDATED_DATE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$UPDATED_DATE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$DEVICE_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$v_UTC_EST_TIME_DIFF"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.parse(\"%1$tY-%1$tm-%1$td\".sprintf($UPDATED_DATE)+' 00:00:00.000',\"yyyy-MM-dd HH:mm:ss.SSS\").minusHours($DEVICE_ID)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$v_EDW_MAX_DT_MINUS_TIME_DIFF"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "parseInt(Date.now().getDay())==1?Date.parse(Date.now().plusDays(-1).toLocaleDateString()+' 15:59:59.000',\"yyyy-MM-dd HH:mm:ss.SSS\"):Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$v_SAT_DT"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000a",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000a",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000a",
+                            "output_view_id": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000b": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000e",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Router"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000e",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000000e",
+                            "output_view_id": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "firstMatch": {
+                        "value": false
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$DATA_AVAILABILITY=='Y'"
+                                },
+                                "outputViewName": {
+                                    "value": "output0"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$DATA_AVAILABILITY=='N'"
+                                },
+                                "outputViewName": {
+                                    "value": "output1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000f": {
+            "class_id": "com-snaplogic-snaps-transform-conditional",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000f",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000011",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Conditional"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000011",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "conditionalTable": {
+                        "value": [
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-100'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RMS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-SBB10-100'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RMS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-007'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RES'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-ABB10-007'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RES'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-003'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RIS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-SBB10-003'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RIS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-140'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RPF'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-SBB10-140'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RPF'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-016'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RPU'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-192'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'ROS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-SBB10-192'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'ROS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-060'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RBS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-SBB10-060'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RBS'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$SAP_SERV_PRD=='SRV-00002-650'"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "'RSP'"
+                                },
+                                "targetPath": {
+                                    "value": "$SAP_SERV_PRD"
+                                }
+                            }
+                        ]
+                    },
+                    "defaultValueTable": {
+                        "value": {
+                            "defaultValue": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "defaultValuePath": {
+                                "value": null
+                            }
+                        }
+                    },
+                    "evaluateAll": {
+                        "value": true
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000012": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000012",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000014",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000014",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BILLING_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BILLING_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "0"
+                                        },
+                                        "targetPath": {
+                                            "value": "$HEADER_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "9"
+                                        },
+                                        "targetPath": {
+                                            "value": "$TRAILER_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'REVO_NEB_RIM_START_'+Date.now().toLocaleDateString('{\"format\":\"yyyyMMdd\"}')  +'_START_TIME_'+Date.now().minusHours(4).toLocaleTimeString('{\"format\":\"HH:mm:ss\"}')"
+                                        },
+                                        "targetPath": {
+                                            "value": "$HEADER_RECORD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'STOP_DATE_'+Date.now().toLocaleDateString('{\"format\":\"yyyyMMdd\"}')+'_STOP_TIME_'+Date.now().minusHours(4).toLocaleTimeString('{\"format\":\"HH:mm:ss\"}')"
+                                        },
+                                        "targetPath": {
+                                            "value": "$TRAILER_RECORD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000015": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000015",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000017",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000017",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "GoodBillingId_OK"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Status"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000018": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000018",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000001b",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000001b",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000001b",
+                            "output_view_id": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-00000000001c": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000001e",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000001e",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "2"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ORDER"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$NETWORK_TYPE_CODE=='GPRS'?$MSISDN:$BILLING_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MDN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MIN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MIN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ICCID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ICCID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "''"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ESN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "''"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MEID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'A'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$STATUS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"%1$tY%1$tm%1$td\".sprintf($DATE_CREATED)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ACTIVATION_DATE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SERV_PRD"
+                                        },
+                                        "targetPath": {
+                                            "value": "$COS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NETWORK"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001f": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000001f",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000020",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter - Good File"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "charset": {
+                        "value": "UTF-8"
+                    },
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "quoteCharacter": {
+                        "value": null
+                    },
+                    "useDefinedHeader": {
+                        "value": true
+                    },
+                    "userDefinedHeader": {
+                        "value": [
+                            {
+                                "headerColumn": {
+                                    "value": "$MDN"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$MIN"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$ICCID"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$ESN"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$MEID"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$STATUS"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$ACTIVATION_DATE"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$COS"
+                                }
+                            },
+                            {
+                                "headerColumn": {
+                                    "value": "$NETWORK"
+                                }
+                            }
+                        ]
+                    },
+                    "writeBOM": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000021": {
+            "class_id": "com-snaplogic-snaps-transform-aggregate",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000021",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000023",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Aggregate"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000023",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "aggregateFields": {
+                        "value": [
+                            {
+                                "field": {
+                                    "expression": true,
+                                    "value": "$HEADER_RECORD"
+                                },
+                                "function": {
+                                    "value": "MIN"
+                                },
+                                "resultField": {
+                                    "value": "$HEADER_RECORD"
+                                }
+                            }
+                        ]
+                    },
+                    "groupByFields": {
+                        "value": []
+                    },
+                    "integerMode": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000024": {
+            "class_id": "com-snaplogic-snaps-flow-datavalidator",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000024",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000026",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data Validator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000026",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "constraintMappings": {
+                        "value": [
+                            {
+                                "constraint": {
+                                    "value": "Pattern"
+                                },
+                                "constraintValue": {
+                                    "value": "[0-9a-z/\\#&$!%-_=|:;<>.]+"
+                                },
+                                "sourcePath": {
+                                    "value": "$BILLING_ID"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000027": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000027",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000029",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000029",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-00000000002a": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000002a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000002c",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000002c",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['$TRAILER_RECORD']+'_'+$['$ROW_COUNT']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$RECORD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000002d": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000002d",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000002f",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000002f",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SOLD_TO"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SOLD_TO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BILLING_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BILLING_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MSISDN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MSISDN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ICCID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ICCID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$DATE_CREATED"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DATE_CREATED"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MIN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MIN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SERV_PRD"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SERV_PRD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000030": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000030",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000032",
+                            "output_view_id": "output101"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000032",
+                            "output_view_id": "output101"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "2"
+                                        },
+                                        "targetPath": {
+                                            "value": "Trailer"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000033": {
+            "class_id": "com-snaplogic-snaps-transform-aggregate",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000033",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000035",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Aggregate"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000035",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "aggregateFields": {
+                        "value": [
+                            {
+                                "field": {
+                                    "expression": true,
+                                    "value": "$BILLING_ID"
+                                },
+                                "function": {
+                                    "value": "COUNT"
+                                },
+                                "resultField": {
+                                    "value": "$ROW_COUNT"
+                                }
+                            },
+                            {
+                                "field": {
+                                    "expression": true,
+                                    "value": "$TRAILER_RECORD"
+                                },
+                                "function": {
+                                    "value": "MIN"
+                                },
+                                "resultField": {
+                                    "value": "$TRAILER_RECORD"
+                                }
+                            }
+                        ]
+                    },
+                    "groupByFields": {
+                        "value": []
+                    },
+                    "integerMode": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000036": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000036",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000038",
+                            "output_view_id": "output101"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000038",
+                            "output_view_id": "output101"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "3"
+                                        },
+                                        "targetPath": {
+                                            "value": "Header"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000039": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000039",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000003a",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "quoteCharacter": {
+                        "value": null
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "userDefinedHeader": {
+                        "value": []
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000003b": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000003b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000003d",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000003d",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['$HEADER_RECORD']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$RECORD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000003e": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000003e",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000003f",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "quoteCharacter": {
+                        "value": "\""
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "userDefinedHeader": {
+                        "value": []
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000040": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000040",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000042",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)2"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000042",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$v_UTC_EST_TIME_DIFF"
+                                        },
+                                        "targetPath": {
+                                            "value": "$UTC_EST_TIME_DIFF"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$UPDATED_DATE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MAX_DATE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$v_EDW_MAX_DT_MINUS_TIME_DIFF>=$v_SAT_DT?'Y':'N'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DATA_AVAILABILITY"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000043": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000043",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000045",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000045",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SOLD_TO"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SOLD_TO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BILLING_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BILLING_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MSISDN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MSISDN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ICCID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ICCID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$DATE_CREATED"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DATE_CREATED"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MIN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MIN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SERV_PRD"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SERV_PRD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000046": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000046",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000048",
+                            "output_view_id": "output104"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-000000000048",
+                            "output_view_id": "output104"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "1"
+                                        },
+                                        "targetPath": {
+                                            "value": "GoodBilling"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000049": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000049",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000004b",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper (Data)"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000004b",
+                            "output_view_id": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SOLD_TO"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SOLD_TO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$BILLING_ID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BILLING_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MSISDN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MSISDN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ICCID"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ICCID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$DATE_CREATED"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DATE_CREATED"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MIN"
+                                        },
+                                        "targetPath": {
+                                            "value": "$MIN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NETWORK_TYPE_CODE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SAP_SERV_PRD"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_SERV_PRD"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000004c": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000004c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "snap_schema_fqid": {
+                            "instance_id": "11111111-1111-1111-1111-00000000004d",
+                            "output_view_id": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "ignoreEmptyStream": {
+                        "value": true
+                    },
+                    "quoteCharacter": {
+                        "value": null
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "userDefinedHeader": {
+                        "value": []
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000004e": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000004e",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": null
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarys3account"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "FW-GoodBillingIds"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output104": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "GoodBillingIds.txt"
+                    },
+                    "writeHeader": {
+                        "value": true
+                    }
+                },
+                "view_serial": 104
+            }
+        },
+        "11111111-1111-1111-1111-00000000004f": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000004f",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": null
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarysmbaccount"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "GoodBillingId_OK.txt"
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000050": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000050",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": null
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarysmbaccount"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "FW - Header"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "HEADER.txt"
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000051": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000051",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": null
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarysmbaccount"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "FW - Trailer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "TRAILER.txt"
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000052": {
+            "class_id": "com-snaplogic-snaps-oracle-execute",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000052",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "value": "PPROVNA"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
+                            },
+                            "ref_id": {
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Oracle - Execute"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input102": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "sqlStatement": {
+                        "expression": false,
+                        "value": "SELECT \nS.SAP_SOLD_TO AS SAP_SOLD_TO, \nRTRIM(S.BILLING_ID) AS BILLING_ID, \nRTRIM(S.MSISDN) AS MSISDN, \nS.ICCID AS ICCID , \nS.DATE_CREATED AS DATE_CREATED, \nS.MIN_ID AS MIN, \nNN.NETWORK_TYPE_CODE AS NETWORK_TYPE_CODE, \nRTRIM(SS.SAP_SERV_PRD) AS SAP_SERV_PRD\nFROM\n SIMS S\nJOIN SIM_SERVICES SS ON S.SIM_ID = SS.SIM_ID\nJOIN NETWORK_TYPES NN ON S.NETWORK_TYPE_ID = NN.NETWORK_TYPE_ID\nWHERE \nS.SAP_SOLD_TO IN ('0000177051', '0000209526')\nAND S.STATUS >= 11\nAND SS.STATUS >= 11\nAND SS.SAP_SERV_PRD IN ('SRV-00002-100', 'SRV-00002-003', 'SRV-00002-007', 'SRV-00002-140', 'SRV-00002-016', 'SRV-00002-192', 'SRV-00002-060', 'SRV-00002-650','SRV-ABB10-007', 'SRV-SBB10-003','SRV-SBB10-192','SRV-SBB10-100','SRV-SBB10-140','SRV-SBB10-060')"
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000053": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000053",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "RIM.Net Mail"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "attachments": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": false,
+                        "value": "SUCCEEDED -Verizon- GoodBillingId_OK.txt\n\nThis is a system generated email. If you have any questions/concerns, please contact EDW-ETL DL.\n\nThanks,\nEDW-ETL Team"
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "Plain text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": "snaplogic"
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "SUCCEEDED --Verizon-- GoodBillingId_OK.txt --"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "edwetl@blackberry.com"
+                    }
+                },
+                "view_serial": 102
+            }
+        }
+    }
+}
