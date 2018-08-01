@@ -1,0 +1,28 @@
+{
+    "class_id": "com-snaplogic-snaps-binary-binarybasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Blackberry"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Verizon_Server"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "55e1417c3cd94f7ac2b89730908ebadb5d43a51c19bca8a11e35c35e2e8d77d7",
+                "key": "account-cloud-managed",
+                "value": "Ppx0meyRRyzo6PBsPLE/NExfbauOX1PTSHPzdSTXYYIdcFA1riA3rJWMcNmrX80hDRMZsoiJchnhugIHmXmG9q3g8VVxNpHLbpufCBylAVywxlLqA3PBXNstmFn5bXktuvrSZRAc9sOWgVifOoVH7II90l6ESrLfeu1f6N8sCvSsaFtr/nyyMRuKfH6ZMPYK43KYn2v3liKkDZrVovV8VTO44vGUz4gMjgKckVVVC7V9JfO2oqDULNX8xwr0Rwilwxf8siqyuCJSWo/NT6c3y6qc0gh2SlKliiyUj/0O7ksWasrxBcrnDG/QFeHu7tMkIcWUE+oTtgPU/8rxW7+IoQ=="
+            },
+            "username": {
+                "value": "blackberry2_id"
+            }
+        },
+        "view_serial": 100
+    }
+}

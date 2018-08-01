@@ -1,0 +1,96 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "Blackberry"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "PPROVNA"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 15
+                    },
+                    "maxIdleTime": {
+                        "value": 300
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": [
+                            {
+                                "jdbcDriver": {
+                                    "value": "shared/ojdbc14.jar"
+                                }
+                            }
+                        ]
+                    },
+                    "SSL_CONNECT": {
+                        "value": false
+                    },
+                    "databaseName": {
+                        "value": "PPROV"
+                    },
+                    "hostname": {
+                        "value": "192.168.47.229"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "password": {
+                        "fp": "55e1417c3cd94f7ac2b89730908ebadb5d43a51c19bca8a11e35c35e2e8d77d7",
+                        "key": "account-cloud-managed",
+                        "value": "0T2z1/cmN4kt4sgDA/JPBW/XNeJ64/msfGnGYqTi9Y0YC88yPBFaLjSj5t0fT6H0IFsgcBaN1OrJAM3wgft1Jr0XaNjFtkcv5SxPe93DkQGA/Z918Fd246vAoT5iQTRLP3F/GlRms0JNLcqH74OgLz8chtzwNweR/806fgsRgb9oy8vl5YO+DF6fKQ+TzgvVzOAstEpkEBCFmVktTuFtGgrlCCAByogfPIkK4EOWkW/AO1B2D6NCDgkonpYvR7Zaxx/F0uybyAlsQz6Lai7NEk8+uQGuxD1aVUVUvQIPRjj4w2ewFU1a8Fu/7s10bpnf++GwHg/YtEpSLwD/n6yQlg=="
+                    },
+                    "portNumber": {
+                        "value": 1521
+                    },
+                    "username": {
+                        "value": "itcorp02"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
